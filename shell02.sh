@@ -14,3 +14,5 @@ fi
 # change here
 # here you can pass the arguments
 bash shell02.sh Shell is fun
+
+#https://learnshell.org/en/Passing_Arguments_to_the_Script

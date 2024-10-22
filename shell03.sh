@@ -1,16 +1,13 @@
 #!/bin/bash
-function File {
-    # think you are inside the file
-    # Change Here
-    echo $#
-}
+NAMES=( John Eric Jessica )
+# write your code here
+NUMBERS=( 1 2 3 )
+STRINGS=( "hello" "world" )
+NumberOfNames=${#NAMES[@]}
+second_name=${NAMES[1]}
+echo ${NUMBERS[@]}
+echo ${STRINGS[@]}
+echo "The number of names listed in the NAMES array: $NumberOfNames"
+echo "The second name on the NAMES list is:" ${second_name}
 
-# Do not change anything
-if [ ! $# -lt 1 ]; then
-    File $*
-    exit 0
-fi
-
-# change here
-# here you can pass the arguments
-bash shell02.sh Shell is fun
+#https://learnshell.org/en/Arrays

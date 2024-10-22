@@ -23,3 +23,5 @@ if [ "$BIRTHDAY" == "Saturday" ] ; then
 else
     echo "BIRTHDAY is incorrect - please retry"
 fi
+
+#https://learnshell.org/en/Variables
