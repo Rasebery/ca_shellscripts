@@ -19,3 +19,20 @@ if [[ $(($NUMBER + $APPLES)) -le 32 ]] ; then
 fi
 
 #https://learnshell.org/en/Decision_Making
+
+#Types of numeric comparisons
+#comparison    Evaluated to true when
+#$a -lt $b    $a < $b
+#$a -gt $b    $a > $b
+#$a -le $b    $a <= $b
+#$a -ge $b    $a >= $b
+#$a -eq $b    $a is equal to $b
+#$a -ne $b    $a is not equal to $b
+
+#Types of string comparisons
+#comparison    Evaluated to true when
+#"$a" = "$b"     $a is the same as $b
+#"$a" == "$b"    $a is the same as $b
+#"$a" != "$b"    $a is different from $b
+#-z "$a"         $a is empty
+
